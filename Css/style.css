@@ -1,0 +1,47 @@
+body{
+    font-style: italic;
+    background-color: antiquewhite;
+    
+
+}
+
+button:hover{
+    background-color: grey;
+}
+
+
+button{
+    width: 2rem;
+    height: 2rem;
+}
+
+#calc{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 0.5rem;
+    align-items: center;
+    padding: 5rem;
+    border: 0.1rem solid black;
+}
+
+#data_display{
+    width: 6rem;
+    height: 1.6rem;
+    cursor: not-allowed;
+}
+
+.scrolling_effect{
+    display: inline-block;
+    animation: scroll-left 15s linear infinite;
+    color: brown;
+}
+
+@keyframes scroll-left {
+    0% {
+      transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+      transform: translateX(-100%); /* Move off-screen to the left */
+    }
+}

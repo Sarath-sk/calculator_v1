@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div id="calc">
+         <h2 style="color: brown;">Calculator</h2>
+         <div>
+            <input type="text" id="data_display" value="0" readonly autofocus>
+            <button id="clear_last">CL</button>
+         </div>
+         <div>
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn" data-value="+">+</button>
+         </div>
+         <div>
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn" data-value="-">-</button>
+         </div>
+         <div>
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn" data-value="*">*</button>
+         </div>
+         <div>
+            <button id="calc_btn" data-value="=">=</button>
+            <button class="btn" data-value="0">0</button>
+            <button id="clear_all" data-value="c">CA</button>
+            <button class="btn" data-value="%">/</button>
+         </div>
+         <div class="scrolling_effect">
+            <span>Welcome to our Calculator App! | Perform quick and easy calculations anytime. | Designed with care for a seamless experience.</span>
+        </div>
+    </div>
+    <footer>
+        &copy; Designed by  <a href="https://www.linkedin.com/in/sarathyeduru/" alt="LinkedIn Page"><strong>Sarath kumar yeduru</strong></a>
+    </footer>
+    
+    <script src="Javascript/calculator.js"></script>
+</body>
+</html>
